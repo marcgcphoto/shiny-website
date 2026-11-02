@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function WorkingWithMirrorsPage() {
           </span>
         </div>
       </main>
+      <SiteFooter />
     </>
   );
 }

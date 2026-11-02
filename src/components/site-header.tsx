@@ -39,8 +39,8 @@ export function SiteHeader({
             </Link>
           ) : (
             <>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+              <Link href="/about">About</Link>
+              <Link href="/contact">Contact</Link>
             </>
           )}
 

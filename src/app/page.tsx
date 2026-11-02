@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
-const etsyShopUrl = "https://simpleglasspatterns.etsy.com";
+const etsyShopUrl = "https://www.etsy.com/shop/shinymoonglass";
 const pinterestUrl = "https://www.pinterest.com/simpleglasspatterns/";
 
 const pinterestFeatures = [
@@ -351,24 +352,22 @@ export default function Home() {
           aria-labelledby="about-title"
         >
           <div>
-            <h2 id="about-title">About Simple Glass Patterns</h2>
+            <p className="eyebrow">The studio</p>
+            <h2 id="about-title">Made in a small workshop near Barcelona.</h2>
           </div>
           <div className="about__body">
             <p>
-              Simple Glass Patterns began in 2024, when a leg injury kept me
-              closer to home and I decided to try a new creative hobby: stained
-              glass.
+              Shiny Moon Glass brings together thoughtfully designed stained
+              glass patterns, finished pieces and practical resources for
+              fellow artists.
             </p>
             <p>
-              The injury healed, but the hobby stayed. By the end of 2025, I
-              opened this Etsy shop to share my designs with other makers and
-              help support a craft that brings a lot of joy to my everyday life.
+              Each pattern begins as a real piece at the workbench, with the
+              same attention to detail carried through to the finished glass.
             </p>
-            <p>
-              From my small workshop near Barcelona, I keep creating practical,
-              approachable stained glass patterns and adding new releases
-              regularly.
-            </p>
+            <a className="text-link" href="/about">
+              Meet the maker <span aria-hidden="true">→</span>
+            </a>
           </div>
         </section>
 
@@ -377,46 +376,21 @@ export default function Home() {
           id="contact"
           aria-labelledby="contact-title"
         >
-          <h2 id="contact-title">Contact</h2>
+          <h2 id="contact-title">Get in touch</h2>
           <p>
-            Need help with an Etsy order, download, or purchase? Please send me
-            a message through Etsy so I can find your order and help directly.
-            For everything else, you can reach Simple Glass Patterns by email: {" "}
-            <a
-              className="contact__email"
-              href="mailto:info@simpleglasspatterns.com"
-            >
-              info@simpleglasspatterns.com
-            </a>
+            Questions about an Etsy purchase are best handled through Etsy. For
+            everything else, you can find the right way to reach me on the
+            contact page.
           </p>
           <div className="contact__links">
-            <a
-              className="button button--primary"
-              href={etsyShopUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Message on Etsy <span aria-hidden="true">↗</span>
+            <a className="button button--primary" href="/contact">
+              Contact Shiny Moon Glass <span aria-hidden="true">→</span>
             </a>
           </div>
         </section>
       </main>
 
-      <footer className="site-footer section-shell">
-        <a className="brand" href="#top" aria-label="Shiny Moon Glass home">
-          <Image
-            src="/images/brand/shiny-logo-2026.png"
-            alt=""
-            width={40}
-            height={40}
-          />
-          <span className="brand__name">Shiny Moon Glass</span>
-        </a>
-        <p>Digital patterns for stained glass makers.</p>
-        <a href={etsyShopUrl} target="_blank" rel="noreferrer">
-          Etsy <span aria-hidden="true">↗</span>
-        </a>
-      </footer>
+      <SiteFooter />
     </>
   );
 }
