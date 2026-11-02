@@ -1,0 +1,95 @@
+[
+  {
+    "id": "celtic-trinity-knot",
+    "title": "Celtic Trinity Knot",
+    "description": "A traditional triquetra available with or without its outer frame.",
+    "image": "about-celtic-knot.png",
+    "galleryImages": [],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4507356412",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4507332802"
+  },
+  {
+    "id": "dragonfly",
+    "title": "Dragonfly",
+    "description": "A nature-inspired suncatcher with a clean, balanced piece layout.",
+    "image": "about-dragonfly.png",
+    "galleryImages": [],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4417727301",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4417719268"
+  },
+  {
+    "id": "baby-chick",
+    "title": "Baby Chick",
+    "description": "A cheerful, approachable project for a colourful small suncatcher.",
+    "image": "about-chick.png",
+    "galleryImages": [],
+    "showInPatternsPage": false,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4475924900",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4475922238"
+  },
+  {
+    "id": "jumping-dolphins",
+    "title": "Jumping Dolphins",
+    "description": "An ocean-inspired design with a flowing, detailed frame.",
+    "image": "contact-dolphins.png",
+    "galleryImages": [],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4464539536",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4464529581"
+  },
+  {
+    "id": "crescent-moon-web-mirror",
+    "title": "Crescent Moon Web Mirror",
+    "description": "A sculptural mirror design with a crescent moon at its centre.",
+    "image": "about-moon-mirror.png",
+    "galleryImages": [],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4353518673",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4353504012"
+  },
+  {
+    "id": "halloween-witch-cat",
+    "title": "Halloween Witch Cat",
+    "description": "A playful cat suncatcher for makers drawn to a little seasonal magic.",
+    "image": "about-cat.png",
+    "galleryImages": [],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4586644654",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4586653208"
+  },
+  {
+    "id": "viking-ship-at-sea",
+    "title": "Viking Ship at Sea",
+    "description": "A graphic seascape with a Viking ship, a bright sun and textured water.",
+    "image": "viking-ship.png",
+    "galleryImages": ["viking-ship-gallery-01.jpg"],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4334611112",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4334613003"
+  },
+  {
+    "id": "coastal-mirror-set",
+    "title": "Coastal Mirror Set",
+    "description": "Three coastal-inspired stained glass mirror designs: two shells and a sailing boat.",
+    "image": "coastal-mirror-set.png",
+    "galleryImages": [
+      "coastal-mirror-set-gallery-01.jpg",
+      "coastal-mirror-set-gallery-02.jpg"
+    ],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4321011095",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4321009155"
+  },
+  {
+    "id": "ufo-alien-landing",
+    "title": "UFO Alien Landing",
+    "description": "A bold retro spaceship design landing among rolling green hills.",
+    "image": "ufo-alien-landing.png",
+    "galleryImages": ["ufo-alien-landing-gallery-01.jpg"],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4370712122",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4370709544"
+  }
+]

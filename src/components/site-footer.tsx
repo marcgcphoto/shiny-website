@@ -21,6 +21,8 @@ export function SiteFooter() {
 
         <nav className="site-footer__nav" aria-label="Footer navigation">
           <Link href="/">Home</Link>
+          <Link href="/patterns">Patterns</Link>
+          <Link href="/gallery">Gallery</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
           <a href={etsyShopUrl} target="_blank" rel="noreferrer">

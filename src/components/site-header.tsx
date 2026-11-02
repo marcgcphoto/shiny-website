@@ -39,6 +39,8 @@ export function SiteHeader({
             </Link>
           ) : (
             <>
+              <Link href="/patterns">Patterns</Link>
+              <Link href="/gallery">Gallery</Link>
               <Link href="/about">About</Link>
               <Link href="/contact">Contact</Link>
             </>
