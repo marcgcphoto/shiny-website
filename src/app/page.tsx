@@ -31,6 +31,7 @@ export default async function Home() {
     (pattern) => pattern.showInPatternsPage,
   );
   const featuredPatterns = shufflePatterns(activePatterns).slice(0, 3);
+  const heroPatterns = activePatterns.slice(0, 5);
   const galleryPreview = featuredPatternsData
     .flatMap((pattern) =>
       pattern.galleryImages.map((image, index) => ({
@@ -47,63 +48,87 @@ export default async function Home() {
       <main className="home-page">
         <section className="home-hero section-shell" aria-labelledby="hero-title">
           <div className="home-hero__copy">
-            <p className="eyebrow">Stained glass patterns for makers</p>
-            <h1 id="hero-title">Thoughtfully designed. Tested in glass.</h1>
+            <p className="eyebrow">From idea to glass</p>
+            <h1 id="hero-title">Stained glass patterns, tested in real glass.</h1>
             <p>
-              Digital stained glass patterns for artists who care about clear
-              lines, considered detail and a satisfying finished piece.
+              Each pattern begins with a clear idea and develops into a finished
+              pattern, released only after it has been tested in real glass.
+            </p>
+            <p>
+              Designed to be made with standard stained glass tools and
+              materials—no ring saw or other specialist tools required.
             </p>
             <div className="home-hero__actions">
-              <Link className="button button--primary" href="/patterns">
-                Explore patterns <span aria-hidden="true">→</span>
-              </Link>
-              <Link className="text-link" href="/gallery">
-                View finished glass <span aria-hidden="true">→</span>
-              </Link>
+              <a
+                className="button button--primary"
+                href={etsyShopUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Pattern shop <span aria-hidden="true">↗</span>
+              </a>
             </div>
           </div>
-          <div className="home-hero__art" aria-label="Selected Shiny Moon Glass work">
-            <div className="home-hero__art-main">
-              <Image
-                src="/images/viking-ship-gallery-01.jpg"
-                alt="Viking Ship at Sea stained glass piece"
-                fill
-                priority
-                sizes="(max-width: 780px) calc(100vw - 32px), 42vw"
-              />
-            </div>
-            <Image
-              className="home-hero__art-piece"
-              src="/images/about-dragonfly.png"
-              alt="Blue stained glass dragonfly"
-              width={155}
-              height={190}
-            />
+          <div className="home-hero__patterns" aria-label="Selected Shiny Moon Glass patterns">
+            {heroPatterns.map((pattern, index) => (
+              <div className="home-hero__pattern" key={pattern.id}>
+                <Image
+                  src={`/images/${pattern.image}`}
+                  alt={`${pattern.title} stained glass pattern preview`}
+                  fill
+                  priority={index < 3}
+                  sizes="(max-width: 780px) 28vw, 12vw"
+                />
+              </div>
+            ))}
           </div>
         </section>
 
         <section className="home-difference" aria-labelledby="difference-title">
           <div className="section-shell">
-            <div className="home-difference__heading">
-              <p className="eyebrow">The Shiny difference</p>
-              <h2 id="difference-title">Made for a better making process.</h2>
+            <div className="home-difference__intro">
+              <div className="home-difference__heading">
+                <div>
+                  <p className="eyebrow">About our patterns</p>
+                  <h2 id="difference-title">Quality patterns for fellow artists.</h2>
+                </div>
+              </div>
+              <Image
+                className="home-difference__preview"
+                src="/images/about-pattern-previews.png"
+                alt="A selection of Shiny Moon Glass pattern previews"
+                width={680}
+                height={280}
+              />
             </div>
             <div className="home-difference__grid">
               <article>
-                <strong>Two sizes included</strong>
-                <p>Small and Large versions, with tiled files for home printing.</p>
+                <strong>Two pattern sizes</strong>
+                <p>Every design includes both Small and Large versions.</p>
               </article>
               <article>
-                <strong>Choose your license</strong>
-                <p>Hobbyist and Commercial options for the way you make.</p>
+                <strong>Four print-ready PDFs</strong>
+                <p>Digital download—no physical item is shipped. A4, Letter, A3 and Tabloid files are ready to print.</p>
               </article>
               <article>
-                <strong>Tested in real glass</strong>
-                <p>Every pattern is designed digitally, then made and refined at the workbench.</p>
+                <strong>Print large at home</strong>
+                <p>Large patterns also include tiled A4 and Letter pages.</p>
+              </article>
+              <article>
+                <strong>PNG files included</strong>
+                <p>Transparent PNGs are ready for Cricut and similar tools.</p>
+              </article>
+              <article>
+                <strong>Made for the Tiffany method</strong>
+                <p>Consistent pattern lines support accurate cuts and soldering.</p>
+              </article>
+              <article>
+                <strong>Hobbyist or Commercial</strong>
+                <p>Choose the license that fits the way you plan to make.</p>
               </article>
             </div>
             <Link className="text-link" href="/patterns">
-              See everything included <span aria-hidden="true">→</span>
+              More info about our patterns <span aria-hidden="true">→</span>
             </Link>
           </div>
         </section>
@@ -111,12 +136,12 @@ export default async function Home() {
         <section className="home-patterns section-shell" aria-labelledby="featured-title">
           <div className="section-heading">
             <div>
-              <p className="eyebrow">Featured patterns</p>
-              <h2 id="featured-title">Find your next project.</h2>
+              <p className="eyebrow">Available on Etsy</p>
+              <h2 id="featured-title">A few patterns you&apos;ll find in my Etsy shop.</h2>
             </div>
-            <Link className="text-link" href="/patterns">
-              See all patterns <span aria-hidden="true">→</span>
-            </Link>
+            <a className="text-link" href={etsyShopUrl} target="_blank" rel="noreferrer">
+              Visit my Etsy shop <span aria-hidden="true">↗</span>
+            </a>
           </div>
           <div className="home-patterns__grid">
             {featuredPatterns.map((pattern) => (
@@ -149,11 +174,11 @@ export default async function Home() {
         <section className="home-gallery" aria-labelledby="home-gallery-title">
           <div className="home-gallery__inner section-shell">
             <div className="home-gallery__copy">
-              <p className="eyebrow">Finished glass</p>
-              <h2 id="home-gallery-title">See the patterns in the light.</h2>
+              <p className="eyebrow">From the workbench</p>
+              <h2 id="home-gallery-title">See the finished pieces.</h2>
               <p>
-                Every pattern is made in glass in my workshop before it is
-                shared with other artists.
+                Explore the gallery to see a selection of finished stained
+                glass pieces made from Shiny Moon Glass patterns.
               </p>
               <Link className="button button--primary" href="/gallery">
                 View the gallery <span aria-hidden="true">→</span>
@@ -181,12 +206,10 @@ export default async function Home() {
           </div>
           <div className="home-resources__links">
             <Link href="/articles/working-with-mirrors">
-              <span>Article</span>
               <strong>Working With Mirrors</strong>
               <em>Read article →</em>
             </Link>
             <Link href="/articles/plant-propagation-stations">
-              <span>Article</span>
               <strong>Plant Propagation Stations</strong>
               <em>Read article →</em>
             </Link>
@@ -207,7 +230,7 @@ export default async function Home() {
             <h2 id="artist-title">Hi, I&apos;m Marc.</h2>
             <p>
               Shiny Moon Glass grew from a new creative hobby into a way of
-              sharing carefully considered patterns with fellow stained glass artists.
+              sharing glass-tested patterns with fellow stained glass artists.
             </p>
             <Link className="text-link" href="/about">
               Meet the maker <span aria-hidden="true">→</span>

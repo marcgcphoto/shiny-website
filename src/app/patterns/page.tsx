@@ -203,7 +203,7 @@ export default async function PatternsPage() {
               </article>
               <article>
                 <strong>Four print-ready PDFs</strong>
-                <p>A4, US Letter, A3 and Tabloid versions are included with every pattern.</p>
+                <p>This is a digital download; no physical item will be shipped. Every pattern includes A4, US Letter, A3 and Tabloid PDFs.</p>
                 <Image
                   className="patterns-page__support-image"
                   src="/images/pattern-pdf-formats-preview.png"
