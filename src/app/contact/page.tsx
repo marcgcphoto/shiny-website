@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <SiteHeader articlePage />
+      <SiteHeader />
       <main className="contact-page">
         <section className="contact-page__intro">
           <div className="contact-page__intro-inner section-shell">

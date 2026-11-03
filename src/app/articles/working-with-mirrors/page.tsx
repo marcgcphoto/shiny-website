@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function WorkingWithMirrorsPage() {
   return (
     <>
-      <SiteHeader articlePage />
+      <SiteHeader />
       <main className="article-page section-shell">
         <p className="eyebrow">Shiny Moon Glass · Article</p>
         <h1>Working With Mirrors</h1>
