@@ -103,14 +103,6 @@ export function GalleryLightbox({ items }: GalleryLightboxProps) {
           >
             ×
           </button>
-          <button
-            className="gallery-lightbox__control gallery-lightbox__control--previous"
-            type="button"
-            onClick={showPrevious}
-            aria-label="Previous image"
-          >
-            ←
-          </button>
           <div className="gallery-lightbox__content">
             <div className="gallery-lightbox__image">
               <Image
@@ -121,7 +113,15 @@ export function GalleryLightbox({ items }: GalleryLightboxProps) {
                 priority
               />
             </div>
-            <p>
+            <div className="gallery-lightbox__meta">
+              <button
+                className="gallery-lightbox__control"
+                type="button"
+                onClick={showPrevious}
+                aria-label="Previous image"
+              >
+                ←
+              </button>
               <span className="gallery-lightbox__title">
                 {selectedItem.patternTitle}
                 <span className="gallery-lightbox__count">
@@ -134,18 +134,18 @@ export function GalleryLightbox({ items }: GalleryLightboxProps) {
                 target="_blank"
                 rel="noreferrer"
               >
-                Get the pattern <span aria-hidden="true">↗</span>
+                Get the pattern
               </a>
-            </p>
+              <button
+                className="gallery-lightbox__control"
+                type="button"
+                onClick={showNext}
+                aria-label="Next image"
+              >
+                →
+              </button>
+            </div>
           </div>
-          <button
-            className="gallery-lightbox__control gallery-lightbox__control--next"
-            type="button"
-            onClick={showNext}
-            aria-label="Next image"
-          >
-            →
-          </button>
         </div>
       ) : null}
     </>
