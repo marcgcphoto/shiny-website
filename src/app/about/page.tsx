@@ -55,7 +55,7 @@ export default function AboutPage() {
                 <p>The current collection is available as digital patterns on Etsy.</p>
                 <a
                   className="button button--primary"
-                  href="https://www.etsy.com/shop/shinymoonglass"
+                  href="https://shinymoonglass.etsy.com"
                   target="_blank"
                   rel="noreferrer"
                 >

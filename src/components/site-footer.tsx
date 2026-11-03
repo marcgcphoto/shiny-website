@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const etsyShopUrl = "https://www.etsy.com/shop/shinymoonglass";
+const etsyShopUrl = "https://shinymoonglass.etsy.com";
 
 export function SiteFooter() {
   return (

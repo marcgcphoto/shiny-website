@@ -2,12 +2,16 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { RowsPhotoAlbum } from "react-photo-album";
+import "react-photo-album/rows.css";
 
-type GalleryItem = {
+export type GalleryItem = {
   commercialUrl: string;
+  height: number;
   id: string;
   image: string;
   patternTitle: string;
+  width: number;
 };
 
 type GalleryLightboxProps = {
@@ -17,6 +21,11 @@ type GalleryLightboxProps = {
 export function GalleryLightbox({ items }: GalleryLightboxProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const selectedItem = selectedIndex === null ? null : items[selectedIndex];
+  const photos = items.map((item) => ({
+    ...item,
+    src: `/images/${item.image}`,
+    alt: `${item.patternTitle} finished stained glass piece`,
+  }));
 
   function showPrevious() {
     setSelectedIndex((currentIndex) =>
@@ -54,27 +63,26 @@ export function GalleryLightbox({ items }: GalleryLightboxProps) {
   return (
     <>
       <section className="gallery-page__grid section-shell" aria-label="Finished stained glass gallery">
-        {items.map((item, index) => (
-          <figure className="gallery-page__item" key={item.id}>
-            <button
-              className="gallery-page__image"
-              type="button"
-              onClick={() => setSelectedIndex(index)}
-              aria-label={`View ${item.patternTitle} larger`}
-            >
-              <Image
-                src={`/images/${item.image}`}
-                alt={`${item.patternTitle} finished stained glass piece`}
-                fill
-                sizes="(max-width: 620px) calc(100vw - 32px), (max-width: 960px) calc(50vw - 28px), 380px"
-              />
+        <RowsPhotoAlbum
+          photos={photos}
+          targetRowHeight={(containerWidth) => (containerWidth < 620 ? 190 : 270)}
+          rowConstraints={{ minPhotos: 1, maxPhotos: 3, singleRowMaxHeight: 350 }}
+          spacing={12}
+          padding={0}
+          sizes={{
+            size: "1200px",
+            sizes: [{ viewport: "(max-width: 1248px)", size: "calc(100vw - 48px)" }],
+          }}
+          onClick={({ index }) => setSelectedIndex(index)}
+          render={{
+            extras: (_, { photo }) => (
               <span className="gallery-page__item-label">
-                <strong>{item.patternTitle}</strong>
+                <strong>{photo.patternTitle}</strong>
                 <em>View piece ↗</em>
               </span>
-            </button>
-          </figure>
-        ))}
+            ),
+          }}
+        />
       </section>
 
       {selectedItem ? (

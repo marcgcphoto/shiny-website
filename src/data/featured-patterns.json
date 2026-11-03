@@ -4,17 +4,29 @@
     "title": "Celtic Trinity Knot",
     "description": "A traditional triquetra available with or without its outer frame.",
     "image": "about-celtic-knot.png",
-    "galleryImages": [],
-    "showInPatternsPage": true,
+    "galleryImages": [
+      "celtic-trinity-knot-gallery-01.jpg"
+    ],
+    "showInPatternsPage": false,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4507356412",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4507332802"
+  },
+  {
+    "id": "love-celtic-knot",
+    "title": "Love Celtic Knot",
+    "description": "A circular Celtic love knot with an interlaced, balanced design.",
+    "image": "love-celtic-knot.png",
+    "galleryImages": ["love-celtic-knot-gallery.jpg"],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4442173171",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4442178476"
   },
   {
     "id": "dragonfly",
     "title": "Dragonfly",
     "description": "A nature-inspired suncatcher with a clean, balanced piece layout.",
     "image": "about-dragonfly.png",
-    "galleryImages": [],
+    "galleryImages": ["dragonfly-gallery-01.jpg"],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4417727301",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4417719268"
@@ -34,7 +46,7 @@
     "title": "Jumping Dolphins",
     "description": "An ocean-inspired design with a flowing, detailed frame.",
     "image": "contact-dolphins.png",
-    "galleryImages": [],
+    "galleryImages": ["jumping-dolphins-gallery-01.jpg"],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4464539536",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4464529581"
@@ -91,5 +103,29 @@
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4370712122",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4370709544"
+  },
+  {
+    "id": "christmas-snowflake-set",
+    "title": "Christmas Snowflake Set",
+    "description": "A festive collection of four geometric snowflake suncatchers, designed to catch the winter light.",
+    "image": "christmas-snowflakes.png",
+    "galleryImages": [
+      "christmas-snowflakes-gallery-01.jpg",
+      "christmas-snowflakes-gallery-02.jpg",
+      "christmas-snowflakes-gallery-03.jpg"
+    ],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4388214209",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4388209279"
+  },
+  {
+    "id": "flying-owl",
+    "title": "Flying Owl",
+    "description": "A characterful owl in flight against a deep blue night sky.",
+    "image": "flying-owl.png",
+    "galleryImages": ["flying-owl-gallery-01.jpg"],
+    "showInPatternsPage": true,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4401839427",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4401836201"
   }
 ]
