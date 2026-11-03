@@ -29,19 +29,30 @@ export default function AboutPage() {
           <div className="about-page__shiny-inner section-shell">
             <div>
               <p className="eyebrow">How I work</p>
-              <h2>Designed digitally. Tested in glass.</h2>
+              <h2>From idea to glass.</h2>
             </div>
             <div className="about-page__copy">
-              <p>
-                I design each pattern digitally in Affinity Designer. Working
-                in vector format keeps the lines clear, the detail precise and
-                the pattern sharp at every available size.
-              </p>
-              <p>
-                Before a pattern is released, I test it in glass. The current
-                collection focuses on suncatchers inspired by nature, animals,
-                geometric forms and mirrors.
-              </p>
+              <div className="about-page__work-block">
+                <p>
+                  Each design starts with an idea that develops into an initial
+                  sketch. From there, I create the pattern in vector software to
+                  ensure the highest possible quality.
+                </p>
+                <p>
+                  Before a pattern is released, I make it in glass myself and
+                  fine-tune it when needed.
+                </p>
+              </div>
+              <div className="about-page__work-block about-page__work-block--audience">
+                <h3>Made for makers.</h3>
+                <p>
+                  Shiny Moon Glass patterns are made by an artist for stained
+                  glass artists, makers and hobbyists. You’ll need the usual
+                  basic tools and materials for cutting, grinding, copper
+                  foiling and soldering, along with glass for your project —
+                  but no ring saw.
+                </p>
+              </div>
               <div className="about-page__pattern-preview">
                 <Image
                   src="/images/about-pattern-previews.png"

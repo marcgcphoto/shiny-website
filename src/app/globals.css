@@ -176,6 +176,10 @@ h2 { font-size: clamp(1.9rem, 3.3vw, 3rem); line-height: .98; }
 .about-page__shiny h2, .about-page__artist h2 { max-width: 480px; }
 .about-page__copy, .about-page__artist-copy { color: var(--muted); font-size: 1.05rem; line-height: 1.75; }
 .about-page__copy p:first-child, .about-page__artist-copy > p:nth-of-type(2) { margin-top: 0; }
+.about-page__work-block > p { margin: 0; }
+.about-page__work-block > p + p { margin-top: 16px; }
+.about-page__work-block--audience { margin-top: 24px; padding-top: 22px; border-top: 1px solid #c6dcea; }
+.about-page__work-block h3 { margin: 0 0 12px; color: var(--ink); font-family: Georgia, serif; font-size: 1.35rem; font-weight: 400; letter-spacing: -.02em; line-height: 1.1; }
 .about-page__pattern-preview { margin-top: 20px; overflow: hidden; }
 .about-page__pattern-preview img { display: block; width: 100%; height: auto; }
 .about-page__work-cta { margin-top: 16px; }
