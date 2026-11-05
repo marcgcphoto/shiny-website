@@ -34,9 +34,9 @@ export default async function Home() {
   const heroPatterns = activePatterns.slice(0, 5);
   const galleryPreview = featuredPatternsData
     .flatMap((pattern) =>
-      pattern.galleryImages.map((image, index) => ({
+      pattern.galleryImages.map((photo, index) => ({
         id: `${pattern.id}-${index + 1}`,
-        image,
+        image: photo.image,
         patternTitle: pattern.title,
       })),
     )
@@ -206,7 +206,7 @@ export default async function Home() {
           </div>
           <div className="home-resources__links">
             <Link href="/articles/working-with-mirrors">
-              <strong>Working With Mirrors</strong>
+              <strong>Adding Mirrors to Stained Glass Projects</strong>
               <em>Read article →</em>
             </Link>
             <Link href="/articles/plant-propagation-stations">

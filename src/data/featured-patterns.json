@@ -5,7 +5,11 @@
     "description": "A traditional triquetra available with or without its outer frame.",
     "image": "about-celtic-knot.png",
     "galleryImages": [
-      "celtic-trinity-knot-gallery-01.jpg"
+      {
+        "image": "celtic-trinity-knot-gallery-01.jpg",
+        "width": 4284,
+        "height": 5712
+      }
     ],
     "showInPatternsPage": false,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4507356412",
@@ -16,7 +20,13 @@
     "title": "Love Celtic Knot",
     "description": "A circular Celtic love knot with an interlaced, balanced design.",
     "image": "love-celtic-knot.png",
-    "galleryImages": ["love-celtic-knot-gallery.jpg"],
+    "galleryImages": [
+      {
+        "image": "love-celtic-knot-gallery.jpg",
+        "width": 3024,
+        "height": 4032
+      }
+    ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4442173171",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4442178476"
@@ -26,7 +36,13 @@
     "title": "Dragonfly",
     "description": "A nature-inspired suncatcher with a clean, balanced piece layout.",
     "image": "about-dragonfly.png",
-    "galleryImages": ["dragonfly-gallery-01.jpg"],
+    "galleryImages": [
+      {
+        "image": "dragonfly-gallery-01.jpg",
+        "width": 3336,
+        "height": 4036
+      }
+    ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4417727301",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4417719268"
@@ -36,7 +52,13 @@
     "title": "Baby Chick",
     "description": "A cheerful, approachable project for a colourful small suncatcher.",
     "image": "about-chick.png",
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "image": "baby-chick-gallery-01.jpg",
+        "width": 2445,
+        "height": 3024
+      }
+    ],
     "showInPatternsPage": false,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4475924900",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4475922238"
@@ -46,7 +68,13 @@
     "title": "Jumping Dolphins",
     "description": "An ocean-inspired design with a flowing, detailed frame.",
     "image": "contact-dolphins.png",
-    "galleryImages": ["jumping-dolphins-gallery-01.jpg"],
+    "galleryImages": [
+      {
+        "image": "jumping-dolphins-gallery-01.jpg",
+        "width": 3789,
+        "height": 5052
+      }
+    ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4464539536",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4464529581"
@@ -66,17 +94,109 @@
     "title": "Halloween Witch Cat",
     "description": "A playful cat suncatcher for makers drawn to a little seasonal magic.",
     "image": "about-cat.png",
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "image": "halloween-witch-cat-gallery-01.jpg",
+        "width": 4284,
+        "height": 5712
+      }
+    ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4586644654",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4586653208"
+  },
+  {
+    "id": "halloween-ghost-pumpkin",
+    "title": "Halloween Ghost with Pumpkin",
+    "description": "A cheerful little ghost holding a pumpkin beneath a crescent moon and a starry night sky.",
+    "image": "halloween-ghost-pumpkin-gallery-01.jpg",
+    "galleryImages": [
+      {
+        "image": "halloween-ghost-pumpkin-gallery-01.jpg",
+        "width": 3024,
+        "height": 4032
+      }
+    ],
+    "showInPatternsPage": false,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4597895394",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4597868555"
+  },
+  {
+    "id": "grim-fedora-skull",
+    "title": "Grim Fedora Skull",
+    "description": "A sharply dressed skull in a fedora and sunglasses, framed by a cool blue Art Deco-inspired backdrop.",
+    "image": "grim-fedora-skull-gallery-01.jpg",
+    "galleryImages": [
+      {
+        "image": "grim-fedora-skull-gallery-01.jpg",
+        "width": 2324,
+        "height": 3560
+      }
+    ],
+    "showInPatternsPage": false,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4497872183",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4497867081"
+  },
+  {
+    "id": "natures-mirror-set",
+    "title": "Nature's Mirror Set",
+    "description": "Three botanical stained glass mirror designs, each shaped around fresh leaves and simple flower details.",
+    "image": "natures-mirror-set-gallery-01.jpg",
+    "galleryImages": [
+      {
+        "image": "natures-mirror-set-gallery-01.jpg",
+        "width": 3000,
+        "height": 2580
+      }
+    ],
+    "showInPatternsPage": false,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4306272537",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/4306269704"
+  },
+  {
+    "id": "fantasy-dragon-head",
+    "title": "Fantasy Dragon Head",
+    "description": "A bold medieval-inspired dragon head with layered green glass and a vivid blue border.",
+    "image": "fantasy-dragon-head-gallery-01.jpg",
+    "galleryImages": [
+      {
+        "image": "fantasy-dragon-head-gallery-01.jpg",
+        "width": 3000,
+        "height": 3000
+      }
+    ],
+    "showInPatternsPage": false,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/1882162651",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/1867972902"
+  },
+  {
+    "id": "quartz-crystals",
+    "title": "Quartz Crystals",
+    "description": "A geometric crystal collection with bold colour, faceted forms and eight design variations.",
+    "image": "quartz-crystals-gallery-01.jpg",
+    "galleryImages": [
+      {
+        "image": "quartz-crystals-gallery-01.jpg",
+        "width": 5666,
+        "height": 5666
+      }
+    ],
+    "showInPatternsPage": false,
+    "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/1892590129",
+    "commercialUrl": "https://shinymoonglass.etsy.com/listing/1892591803"
   },
   {
     "id": "viking-ship-at-sea",
     "title": "Viking Ship at Sea",
     "description": "A graphic seascape with a Viking ship, a bright sun and textured water.",
     "image": "viking-ship.png",
-    "galleryImages": ["viking-ship-gallery-01.jpg"],
+    "galleryImages": [
+      {
+        "image": "viking-ship-gallery-01.jpg",
+        "width": 4000,
+        "height": 4000
+      }
+    ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4334611112",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4334613003"
@@ -87,8 +207,16 @@
     "description": "Three coastal-inspired stained glass mirror designs: two shells and a sailing boat.",
     "image": "coastal-mirror-set.png",
     "galleryImages": [
-      "coastal-mirror-set-gallery-01.jpg",
-      "coastal-mirror-set-gallery-02.jpg"
+      {
+        "image": "coastal-mirror-set-gallery-01.jpg",
+        "width": 4000,
+        "height": 4000
+      },
+      {
+        "image": "coastal-mirror-set-gallery-02.jpg",
+        "width": 4000,
+        "height": 4000
+      }
     ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4321011095",
@@ -99,8 +227,14 @@
     "title": "UFO Alien Landing",
     "description": "A bold retro spaceship design landing among rolling green hills.",
     "image": "ufo-alien-landing.png",
-    "galleryImages": ["ufo-alien-landing-gallery-01.jpg"],
-    "showInPatternsPage": true,
+    "galleryImages": [
+      {
+        "image": "ufo-alien-landing-gallery-01.jpg",
+        "width": 3200,
+        "height": 4000
+      }
+    ],
+    "showInPatternsPage": false,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4370712122",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4370709544"
   },
@@ -110,9 +244,21 @@
     "description": "A festive collection of four geometric snowflake suncatchers, designed to catch the winter light.",
     "image": "christmas-snowflakes.png",
     "galleryImages": [
-      "christmas-snowflakes-gallery-01.jpg",
-      "christmas-snowflakes-gallery-02.jpg",
-      "christmas-snowflakes-gallery-03.jpg"
+      {
+        "image": "christmas-snowflakes-gallery-01.jpg",
+        "width": 4000,
+        "height": 4000
+      },
+      {
+        "image": "christmas-snowflakes-gallery-02.jpg",
+        "width": 4000,
+        "height": 4000
+      },
+      {
+        "image": "christmas-snowflakes-gallery-03.jpg",
+        "width": 4000,
+        "height": 4000
+      }
     ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4388214209",
@@ -123,7 +269,13 @@
     "title": "Flying Owl",
     "description": "A characterful owl in flight against a deep blue night sky.",
     "image": "flying-owl.png",
-    "galleryImages": ["flying-owl-gallery-01.jpg"],
+    "galleryImages": [
+      {
+        "image": "flying-owl-gallery-01.jpg",
+        "width": 2692,
+        "height": 4000
+      }
+    ],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4401839427",
     "commercialUrl": "https://shinymoonglass.etsy.com/listing/4401836201"

@@ -17,7 +17,7 @@ const cooper = localFont({
 
 export const metadata: Metadata = {
   title: "Shiny Moon Glass",
-  description: "Handcrafted stained glass by Shiny Moon Glass.",
+  description: "Digital stained glass patterns, designed and tested in glass for fellow makers.",
   icons: {
     icon: "/icon.png",
     apple: "/apple-icon.png",

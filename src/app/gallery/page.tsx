@@ -5,38 +5,15 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { SocialFollow } from "@/components/social-follow";
 
-const galleryImageDimensions: Record<string, { width: number; height: number }> = {
-  "celtic-trinity-knot-gallery-01.jpg": { width: 4284, height: 5712 },
-  "celtic-trinity-knot-gallery-02.jpg": { width: 3024, height: 4032 },
-  "christmas-snowflakes-gallery-01.jpg": { width: 4000, height: 4000 },
-  "christmas-snowflakes-gallery-02.jpg": { width: 4000, height: 4000 },
-  "christmas-snowflakes-gallery-03.jpg": { width: 4000, height: 4000 },
-  "coastal-mirror-set-gallery-01.jpg": { width: 4000, height: 4000 },
-  "coastal-mirror-set-gallery-02.jpg": { width: 4000, height: 4000 },
-  "dragonfly-gallery-01.jpg": { width: 3336, height: 4036 },
-  "flying-owl-gallery-01.jpg": { width: 2692, height: 4000 },
-  "jumping-dolphins-gallery-01.jpg": { width: 3789, height: 5052 },
-  "love-celtic-knot-gallery.jpg": { width: 3024, height: 4032 },
-  "ufo-alien-landing-gallery-01.jpg": { width: 3200, height: 4000 },
-  "viking-ship-gallery-01.jpg": { width: 4000, height: 4000 },
-};
-
 const galleryItems = featuredPatternsData.flatMap((pattern) =>
-  pattern.galleryImages.map((image, index) => {
-    const dimensions = galleryImageDimensions[image];
-
-    if (!dimensions) {
-      throw new Error(`Missing gallery dimensions for ${image}`);
-    }
-
-    return {
-      id: `${pattern.id}-${index + 1}`,
-      image,
-      patternTitle: pattern.title,
-      commercialUrl: pattern.commercialUrl,
-      ...dimensions,
-    };
-  }),
+  pattern.galleryImages.map((photo, index) => ({
+    id: `${pattern.id}-${index + 1}`,
+    image: photo.image,
+    width: photo.width,
+    height: photo.height,
+    patternTitle: pattern.title,
+    commercialUrl: pattern.commercialUrl,
+  })),
 );
 
 export const metadata: Metadata = {
