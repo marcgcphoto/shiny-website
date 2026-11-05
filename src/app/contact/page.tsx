@@ -25,7 +25,7 @@ export default function ContactPage() {
             </div>
             <Image
               className="contact-page__intro-art"
-              src="/images/contact-dolphins.png"
+              src="/images/contact-dolphins.webp"
               alt="Dolphin stained glass suncatcher"
               width={210}
               height={259}

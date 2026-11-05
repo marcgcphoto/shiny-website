@@ -3,12 +3,12 @@
     "id": "celtic-trinity-knot",
     "title": "Celtic Trinity Knot",
     "description": "A traditional triquetra available with or without its outer frame.",
-    "image": "about-celtic-knot.png",
+    "image": "about-celtic-knot.webp",
     "galleryImages": [
       {
-        "image": "celtic-trinity-knot-gallery-01.jpg",
-        "width": 4284,
-        "height": 5712
+        "image": "celtic-trinity-knot-gallery-01.webp",
+        "width": 1875,
+        "height": 2500
       }
     ],
     "showInPatternsPage": false,
@@ -19,12 +19,12 @@
     "id": "love-celtic-knot",
     "title": "Love Celtic Knot",
     "description": "A circular Celtic love knot with an interlaced, balanced design.",
-    "image": "love-celtic-knot.png",
+    "image": "love-celtic-knot.webp",
     "galleryImages": [
       {
-        "image": "love-celtic-knot-gallery.jpg",
-        "width": 3024,
-        "height": 4032
+        "image": "love-celtic-knot-gallery.webp",
+        "width": 1875,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,
@@ -35,12 +35,12 @@
     "id": "dragonfly",
     "title": "Dragonfly",
     "description": "A nature-inspired suncatcher with a clean, balanced piece layout.",
-    "image": "about-dragonfly.png",
+    "image": "about-dragonfly.webp",
     "galleryImages": [
       {
-        "image": "dragonfly-gallery-01.jpg",
-        "width": 3336,
-        "height": 4036
+        "image": "dragonfly-gallery-01.webp",
+        "width": 2066,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,
@@ -51,12 +51,12 @@
     "id": "baby-chick",
     "title": "Baby Chick",
     "description": "A cheerful, approachable project for a colourful small suncatcher.",
-    "image": "about-chick.png",
+    "image": "about-chick.webp",
     "galleryImages": [
       {
-        "image": "baby-chick-gallery-01.jpg",
-        "width": 2445,
-        "height": 3024
+        "image": "baby-chick-gallery-01.webp",
+        "width": 2021,
+        "height": 2500
       }
     ],
     "showInPatternsPage": false,
@@ -67,12 +67,12 @@
     "id": "jumping-dolphins",
     "title": "Jumping Dolphins",
     "description": "An ocean-inspired design with a flowing, detailed frame.",
-    "image": "contact-dolphins.png",
+    "image": "contact-dolphins.webp",
     "galleryImages": [
       {
-        "image": "jumping-dolphins-gallery-01.jpg",
-        "width": 3789,
-        "height": 5052
+        "image": "jumping-dolphins-gallery-01.webp",
+        "width": 1875,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,
@@ -83,7 +83,7 @@
     "id": "crescent-moon-web-mirror",
     "title": "Crescent Moon Web Mirror",
     "description": "A sculptural mirror design with a crescent moon at its centre.",
-    "image": "about-moon-mirror.png",
+    "image": "about-moon-mirror.webp",
     "galleryImages": [],
     "showInPatternsPage": true,
     "hobbyistUrl": "https://shinymoonglass.etsy.com/listing/4353518673",
@@ -93,12 +93,12 @@
     "id": "halloween-witch-cat",
     "title": "Halloween Witch Cat",
     "description": "A playful cat suncatcher for makers drawn to a little seasonal magic.",
-    "image": "about-cat.png",
+    "image": "about-cat.webp",
     "galleryImages": [
       {
-        "image": "halloween-witch-cat-gallery-01.jpg",
-        "width": 4284,
-        "height": 5712
+        "image": "halloween-witch-cat-gallery-01.webp",
+        "width": 1875,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,
@@ -109,12 +109,12 @@
     "id": "halloween-ghost-pumpkin",
     "title": "Halloween Ghost with Pumpkin",
     "description": "A cheerful little ghost holding a pumpkin beneath a crescent moon and a starry night sky.",
-    "image": "halloween-ghost-pumpkin-gallery-01.jpg",
+    "image": "halloween-ghost-pumpkin-gallery-01.webp",
     "galleryImages": [
       {
-        "image": "halloween-ghost-pumpkin-gallery-01.jpg",
-        "width": 3024,
-        "height": 4032
+        "image": "halloween-ghost-pumpkin-gallery-01.webp",
+        "width": 1875,
+        "height": 2500
       }
     ],
     "showInPatternsPage": false,
@@ -125,12 +125,12 @@
     "id": "grim-fedora-skull",
     "title": "Grim Fedora Skull",
     "description": "A sharply dressed skull in a fedora and sunglasses, framed by a cool blue Art Deco-inspired backdrop.",
-    "image": "grim-fedora-skull-gallery-01.jpg",
+    "image": "grim-fedora-skull-gallery-01.webp",
     "galleryImages": [
       {
-        "image": "grim-fedora-skull-gallery-01.jpg",
-        "width": 2324,
-        "height": 3560
+        "image": "grim-fedora-skull-gallery-01.webp",
+        "width": 1632,
+        "height": 2500
       }
     ],
     "showInPatternsPage": false,
@@ -141,12 +141,12 @@
     "id": "natures-mirror-set",
     "title": "Nature's Mirror Set",
     "description": "Three botanical stained glass mirror designs, each shaped around fresh leaves and simple flower details.",
-    "image": "natures-mirror-set-gallery-01.jpg",
+    "image": "natures-mirror-set-gallery-01.webp",
     "galleryImages": [
       {
-        "image": "natures-mirror-set-gallery-01.jpg",
-        "width": 3000,
-        "height": 2580
+        "image": "natures-mirror-set-gallery-01.webp",
+        "width": 2500,
+        "height": 2150
       }
     ],
     "showInPatternsPage": false,
@@ -157,12 +157,12 @@
     "id": "fantasy-dragon-head",
     "title": "Fantasy Dragon Head",
     "description": "A bold medieval-inspired dragon head with layered green glass and a vivid blue border.",
-    "image": "fantasy-dragon-head-gallery-01.jpg",
+    "image": "fantasy-dragon-head-gallery-01.webp",
     "galleryImages": [
       {
-        "image": "fantasy-dragon-head-gallery-01.jpg",
-        "width": 3000,
-        "height": 3000
+        "image": "fantasy-dragon-head-gallery-01.webp",
+        "width": 2500,
+        "height": 2500
       }
     ],
     "showInPatternsPage": false,
@@ -173,12 +173,12 @@
     "id": "quartz-crystals",
     "title": "Quartz Crystals",
     "description": "A geometric crystal collection with bold colour, faceted forms and eight design variations.",
-    "image": "quartz-crystals-gallery-01.jpg",
+    "image": "quartz-crystals-gallery-01.webp",
     "galleryImages": [
       {
-        "image": "quartz-crystals-gallery-01.jpg",
-        "width": 5666,
-        "height": 5666
+        "image": "quartz-crystals-gallery-01.webp",
+        "width": 2500,
+        "height": 2500
       }
     ],
     "showInPatternsPage": false,
@@ -189,12 +189,12 @@
     "id": "viking-ship-at-sea",
     "title": "Viking Ship at Sea",
     "description": "A graphic seascape with a Viking ship, a bright sun and textured water.",
-    "image": "viking-ship.png",
+    "image": "viking-ship.webp",
     "galleryImages": [
       {
-        "image": "viking-ship-gallery-01.jpg",
-        "width": 4000,
-        "height": 4000
+        "image": "viking-ship-gallery-01.webp",
+        "width": 2500,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,
@@ -205,17 +205,17 @@
     "id": "coastal-mirror-set",
     "title": "Coastal Mirror Set",
     "description": "Three coastal-inspired stained glass mirror designs: two shells and a sailing boat.",
-    "image": "coastal-mirror-set.png",
+    "image": "coastal-mirror-set.webp",
     "galleryImages": [
       {
-        "image": "coastal-mirror-set-gallery-01.jpg",
-        "width": 4000,
-        "height": 4000
+        "image": "coastal-mirror-set-gallery-01.webp",
+        "width": 2500,
+        "height": 2500
       },
       {
-        "image": "coastal-mirror-set-gallery-02.jpg",
-        "width": 4000,
-        "height": 4000
+        "image": "coastal-mirror-set-gallery-02.webp",
+        "width": 2500,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,
@@ -226,12 +226,12 @@
     "id": "ufo-alien-landing",
     "title": "UFO Alien Landing",
     "description": "A bold retro spaceship design landing among rolling green hills.",
-    "image": "ufo-alien-landing.png",
+    "image": "ufo-alien-landing.webp",
     "galleryImages": [
       {
-        "image": "ufo-alien-landing-gallery-01.jpg",
-        "width": 3200,
-        "height": 4000
+        "image": "ufo-alien-landing-gallery-01.webp",
+        "width": 2000,
+        "height": 2500
       }
     ],
     "showInPatternsPage": false,
@@ -242,22 +242,22 @@
     "id": "christmas-snowflake-set",
     "title": "Christmas Snowflake Set",
     "description": "A festive collection of four geometric snowflake suncatchers, designed to catch the winter light.",
-    "image": "christmas-snowflakes.png",
+    "image": "christmas-snowflakes.webp",
     "galleryImages": [
       {
-        "image": "christmas-snowflakes-gallery-01.jpg",
-        "width": 4000,
-        "height": 4000
+        "image": "christmas-snowflakes-gallery-01.webp",
+        "width": 2500,
+        "height": 2500
       },
       {
-        "image": "christmas-snowflakes-gallery-02.jpg",
-        "width": 4000,
-        "height": 4000
+        "image": "christmas-snowflakes-gallery-02.webp",
+        "width": 2500,
+        "height": 2500
       },
       {
-        "image": "christmas-snowflakes-gallery-03.jpg",
-        "width": 4000,
-        "height": 4000
+        "image": "christmas-snowflakes-gallery-03.webp",
+        "width": 2500,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,
@@ -268,12 +268,12 @@
     "id": "flying-owl",
     "title": "Flying Owl",
     "description": "A characterful owl in flight against a deep blue night sky.",
-    "image": "flying-owl.png",
+    "image": "flying-owl.webp",
     "galleryImages": [
       {
-        "image": "flying-owl-gallery-01.jpg",
-        "width": 2692,
-        "height": 4000
+        "image": "flying-owl-gallery-01.webp",
+        "width": 1683,
+        "height": 2500
       }
     ],
     "showInPatternsPage": true,

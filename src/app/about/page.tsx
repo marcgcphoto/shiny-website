@@ -122,31 +122,31 @@ export default function AboutPage() {
               <p className="eyebrow">A few pieces from the workbench</p>
               <div>
                 <Image
-                  src="/images/about-dragonfly.png"
+                  src="/images/about-dragonfly.webp"
                   alt="Blue stained glass dragonfly suncatcher"
                   width={120}
                   height={148}
                 />
                 <Image
-                  src="/images/about-moon-mirror.png"
+                  src="/images/about-moon-mirror.webp"
                   alt="Stained glass moon mirror with a web-shaped frame"
                   width={112}
                   height={134}
                 />
                 <Image
-                  src="/images/about-celtic-knot.png"
+                  src="/images/about-celtic-knot.webp"
                   alt="Green stained glass Celtic knot suncatcher"
                   width={124}
                   height={121}
                 />
                 <Image
-                  src="/images/about-chick.png"
+                  src="/images/about-chick.webp"
                   alt="Yellow chick stained glass suncatcher"
                   width={108}
                   height={131}
                 />
                 <Image
-                  src="/images/about-cat.png"
+                  src="/images/about-cat.webp"
                   alt="Black cat stained glass panel"
                   width={104}
                   height={131}

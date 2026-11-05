@@ -106,7 +106,7 @@ export default function PlantPropagationStationsPage() {
               </div>
               <div className="article-page__tube-visual">
                 <ArticleImageLightbox
-                  src="/images/propagation-tube-detail.jpg"
+                  src="/images/propagation-tube-detail.webp"
                   alt="Close-up of a test tube held by upper and lower rings on a stained glass propagation station"
                   fill
                   sizes="(max-width: 780px) 300px, 240px"
@@ -134,7 +134,7 @@ export default function PlantPropagationStationsPage() {
               </div>
               <div className="article-page__rings-visual">
                 <ArticleImageLightbox
-                  src="/images/propagation-station-ring-forms.jpg"
+                  src="/images/propagation-station-ring-forms.webp"
                   alt="Two formed wire support rings for a glass propagation station"
                   fill
                   sizes="(max-width: 780px) 540px, 240px"
@@ -156,7 +156,7 @@ export default function PlantPropagationStationsPage() {
             </p>
             <ArticleImageLightbox
               className="article-page__inline-image"
-              src="/images/propagation-station-soldered-ring-horizontal.jpg"
+              src="/images/propagation-station-soldered-ring-horizontal.webp"
               alt="A support ring lightly soldered to the central spine of a stained glass pattern"
               width={1600}
               height={1200}
@@ -170,7 +170,7 @@ export default function PlantPropagationStationsPage() {
             </p>
             <ArticleImageLightbox
               className="article-page__inline-image"
-              src="/images/propagation-finished.jpg"
+              src="/images/propagation-finished.webp"
               alt="Finished stained glass propagation station with two test tubes and plant cuttings"
               width={1600}
               height={1908}

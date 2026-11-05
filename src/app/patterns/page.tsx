@@ -228,7 +228,7 @@ export default async function PatternsPage() {
                 <p>A ZIP of transparent PNGs is ready to use with Cricut and similar cutting tools.</p>
                 <Image
                   className="patterns-page__support-image"
-                  src="/images/pattern-cricut-preview.jpg"
+                  src="/images/pattern-cricut-preview.webp"
                   alt="A stained glass pattern cut on a Cricut mat using the supplied PNG file"
                   width={1804}
                   height={1965}
